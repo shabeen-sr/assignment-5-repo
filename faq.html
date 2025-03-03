@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FAQ</title>
+    <link href="https://cdn.jsdelivr.net/npm/daisyui@5" rel="stylesheet" type="text/css" />
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+</head>
+<body>
+
+    <header class="bg-cyan-100">
+        <nav class="flex justify-between items-center py-2 px-2 mb-6">
+            <div class="flex items-center gap-2 py-2">
+                <img src="assets/logo.png" alt="">
+                <h2 class="text-2xl">Dev<span class="font-bold">Board</span></h2>
+            </div>
+            <div>
+                <button id="back" class="btn btn-primary">Back to desk</button>
+            </div>           
+        </nav>
+    </header>
+
+    <h2 class="text-5xl font-extrabold pb-8 text-center">Blog</h2>
+
+    <section class="bg-cyan-100 p-5 mb-4">
+        <p class="text-3xl font-bold">Question-1:
+            What are the different ways to select an element in the DOM?
+        </p>
+        <p class="mt-4 text-[20px] text-gray-600">
+            
+        </p>
+    </section>
+
+    <section class="bg-cyan-100 p-5 mb-4">
+        <p class="text-3xl font-bold">Question-2: What is the difference between innerHTML, innerText, and textContent ?
+        </p>
+        <p class="mt-4 text-[20px] text-gray-600">
+            
+        </p>
+    </section>
+
+    <section class="bg-cyan-100 p-5 mb-4">
+        <p class="text-3xl font-bold">Question-3: What is event delegation in the DOM?
+        </p>
+        <p class="mt-4 text-[20px] text-gray-600">
+            
+        </p>
+    </section>
+
+    <section class="bg-cyan-100 p-5 mb-4">
+        <p class="text-3xl font-bold">Question-4: What is event bubbling in the DOM?
+        </p>
+        <p class="mt-4 text-[20px] text-gray-600">
+            
+        </p>
+    </section>
+
+    <section class="bg-cyan-100 p-5 mb-4">
+        <p class="text-3xl font-bold">Question-5: How do you create, add, and remove elements using JavaScript?
+        </p>
+        <p class="mt-4 text-[20px] text-gray-600">
+            
+        </p>
+    </section>
+    
+      <script>
+        const back = document.getElementById("back");
+        back.addEventListener("click", function () {
+            window.location.href = "main.html";
+        });        
+      </script>
+</body>
+</html>
